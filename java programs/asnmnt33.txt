@@ -1,0 +1,37 @@
+package project2;
+
+ //13
+class parent1
+{
+	String name;
+	 int a;
+	 void food()//same name and signature
+	{
+		 int a=32;
+		 this.a=a; ///assigning local vrble value to global vrble
+		System.out.println("peda");
+		System.out.println("rasmalai");
+		
+	}
+}
+public class Method_overriding extends parent1
+{
+	void food()//same name and signature
+	{
+		String name="isha";
+		this.name=name;//assigning local variable to global variable
+	
+		System.out.println("chicken rol");
+		System.out.println("shezwan hakka noodles");
+		super.food();//to call the parent class implementation 
+	}
+
+	public static void main(String[] args) 
+	{
+	Method_overriding m1=new Method_overriding();
+	m1.food();
+	 System.out.println(m1.a);
+	 System.out.println(m1.name);
+	}
+
+}

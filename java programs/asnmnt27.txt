@@ -1,0 +1,13 @@
+package project2;
+
+public class Asnmnt38
+{
+
+	public static void main(String[] args)
+	{
+    String a="Ishana Fathima";
+    String name=a.replaceAll("Fathima", "Ayaz");
+     System.out.println(name);
+	}
+
+}

@@ -1,0 +1,90 @@
+package project2;
+//6
+import java.util.Scanner;
+
+public class Asnmnt30
+{
+ 
+   static void circle()//A=pi*r^2 c=2*pi*r
+   {
+	   Scanner s1=new Scanner(System.in);
+	   System.out.println("enter the value of r");
+	   double r= s1.nextDouble();
+	    final double pi=3.14;
+	   	double Area;
+	   	double c;
+	   	c=pi*r;
+	    Area=pi*r*r;
+	   System.out.println("area  "+Area);
+	   System.out.println("cercomfrance  "+c);
+	    }
+   static void square()//A=a^2 p=4*a
+   {
+	   Scanner s1=new Scanner(System.in);
+	   System.out.println("enter the value of a");
+	   int a= s1.nextInt();
+	   int Area;
+	   Area=a*a;
+       int p=4*a;
+	   System.out.println("Area of square"  +Area);
+	   System.out.println("perimeter of square"  +p);
+   }
+   static void rectangle()//A=w*l p=2*(l+W)
+   {
+	   Scanner s1=new Scanner(System.in);
+	   System.out.println("enter the value of l");
+	   int l= s1.nextInt();
+	   System.out.println("enter the value of w");
+	   int w=s1.nextInt();
+	   int A;
+		A=l*w;
+	int	p=2*(l+w);
+		System.out.println("area of rectangle"   +A);
+		System.out.println("perimeter of rectangle "+p);
+   }
+   static void triangle()//A=h*b/2  p=a+b+c
+   {
+	  int A;
+	  Scanner s1=new Scanner (System.in);
+	  System.out.println("enter the value of a");
+	   int a= s1.nextInt();
+	   System.out.println("enter the value of b");
+	   int b= s1.nextInt();
+	   System.out.println("enter the value of c");
+	   int c= s1.nextInt();
+	   System.out.println("enter the value of h");
+	   int h= s1.nextInt();
+	   int p=a+b+c;
+	   A=h*b/2;
+	   System.out.println("area of triangle  "+A);
+	   System.out.println("perimeter of triangle  "+p);
+	    }
+   static void tripizium()//A=1/2(a+b)*h p=a+b+c+d
+   {
+	   Scanner s1=new Scanner (System.in);
+		  System.out.println("enter the value of a");
+		   int a= s1.nextInt();
+		   System.out.println("enter the value of b");
+		   int b= s1.nextInt();
+		   System.out.println("enter the value of h");
+		   int h= s1.nextInt();
+		   System.out.println("enter the value of c");
+		   int c= s1.nextInt();
+		   System.out.println("enter the value of d");
+		   int d= s1.nextInt();
+	   int A;
+	    A=(a+b)/2*h;
+	    int p=a+b+c+d;
+	    System.out.println("perimeter of tripizium  "+p);
+	   System.out.println("area of tripizium  "+A);
+   }
+   public static void main(String[] args)
+   {
+		circle();
+		square();
+	 rectangle();
+	 triangle();
+	 tripizium();
+   }
+}
+

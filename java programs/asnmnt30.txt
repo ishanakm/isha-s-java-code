@@ -1,0 +1,47 @@
+package project2;
+
+interface one
+{
+	void add();
+	void subtract();
+	
+}
+interface two extends one
+{
+	void add1();
+	void subtract2();
+
+}
+public class Childclass implements two
+{
+
+	public static void main(String[] args)
+	{
+		Childclass c1= new Childclass();
+		c1.add();
+		c1.add1();
+		c1.subtract();
+		c1.subtract2();
+	}
+
+	
+	public void add() {
+		
+	}
+
+	
+	public void subtract() {
+		
+	}
+
+	
+	public void add1() {
+		
+	}
+
+	
+	public void subtract2() {
+		
+	}
+
+}

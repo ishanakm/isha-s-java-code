@@ -1,0 +1,52 @@
+package project2;
+//2.area of circle,triangle,square,rectangle,trapezium
+public class Area
+{
+   static double pi=3.14;
+   static int r=10;
+   static void circle()//A=pi*r^2
+   {
+	  double A;
+	   A=pi*r*r;
+	   System.out.println(A);
+	    }
+   static void square()//A=a^2
+   {
+	   int A;
+	   int a=20;
+	   A=a*a;
+	   System.out.println(A);
+   }
+   static void rectangle()//A=w*l
+   {
+	   int l=20;
+	   int w=10;
+	   int A;
+		A=l*w;
+		System.out.println(A);
+   }
+   static void triangle()//A=h*b/2
+   {
+	  int A;
+	int h=25;
+	int b=20;
+	A=h*b/2;
+	   System.out.println(A);
+	    }
+   static void tripizium()//A=1/2(a+b)*h
+   {
+	   int A;
+	   int a=20;
+	   int b=23;
+	   int h=18;
+	    A=(a+b)/2*h;
+	   System.out.println(A);
+   }
+   public static void main(String[] args) {
+		circle();
+		square();
+	 rectangle();
+	 triangle();
+	 tripizium();
+   }
+}

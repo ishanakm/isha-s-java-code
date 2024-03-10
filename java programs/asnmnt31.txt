@@ -1,0 +1,39 @@
+package project2;
+//11 
+class parent
+{
+	 static int a=  20;
+	 int b=28;
+
+	 static void add()
+	 {
+		 parent p1=new parent();
+		 int sum;
+		
+		 sum=a+p1.b;
+		 System.out.println(sum);
+	 }
+	 void student()
+	 {
+		 int marks=20;
+		 if(!(a>b||marks>30))
+		 {
+			 System.out.println("fail");
+		 }}}
+
+public class Inheritance extends parent
+{
+        void sub()
+        {
+       	 parent p1=new parent();
+        	int sub;
+        sub=a-p1.b;
+        System.out.println(sub);
+        }
+	public static void main(String[] args) 
+	{
+		Inheritance i1=new Inheritance();
+		 add();
+		 i1.sub();
+		 i1.student();
+		 }}

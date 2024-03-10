@@ -1,0 +1,18 @@
+package project2;
+//never ending loop
+public class NEloop
+{
+
+	public static void main(String[] args)
+	{
+		System.out.println("d");
+  for(int i=-8;i<0;i--)
+  {
+	  System.out.println(i);
+	
+	  
+  }
+
+	}
+
+}

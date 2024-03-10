@@ -1,0 +1,17 @@
+package project2;
+
+public class Thiskw
+{
+	int a;
+ void add(int a)
+ {
+	 this.a=a;//assigning local value to global
+	 System.out.println(a);
+ }
+	public static void main(String[] args) 
+	{
+		 Thiskw t1=new Thiskw();
+		 t1.add(6);
+	}
+
+}

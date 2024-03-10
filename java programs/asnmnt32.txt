@@ -1,0 +1,25 @@
+package project2;
+//12
+abstract class Abstract
+{
+	abstract  void add();// abstract is always non-static
+}
+public class ishana extends Abstract
+{
+    void ayaz()
+    {
+    	System.out.println("my name ");
+    }
+	public static void main(String[] args) 
+	{
+  ishana i1=new ishana();
+  i1.ayaz();
+  i1.add();
+	}
+
+	void add() 
+	{
+		System.out.println("addition");
+	}
+
+}

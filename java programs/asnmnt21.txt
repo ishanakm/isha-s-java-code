@@ -1,0 +1,35 @@
+package project2;
+//1
+abstract class place //abstract class
+{
+	abstract  void add();//abstract method
+	abstract void sub();
+ static void mom()
+	{
+		System.out.println("my mom");
+	}
+}
+public class Abstractconcrete extends place //concrete class
+{
+	Abstractconcrete()
+	{
+		System.out.println("new constructor");
+	}
+	public static void main(String[] args)
+	{
+		Abstractconcrete a1=new Abstractconcrete();
+		a1.add();
+		mom();
+		a1.sub();
+	}
+   void add() //concrete method
+	{
+		System.out.println("addition");
+	}
+	
+	void sub() 
+	{
+		System.out.println("subtraction");
+	}
+
+}

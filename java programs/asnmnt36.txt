@@ -1,0 +1,91 @@
+package project2;
+
+import java.util.Date;
+
+public class Stringfunction {
+
+	public static void main(String[] args)
+	{
+  String n1="Ishana";
+  String n2="ayaz";
+  int a=n1.length();
+   System.out.println(a);
+   
+  String a1=n1.toLowerCase();
+   System.out.println(a1);
+   
+  String a2=n1.toUpperCase();
+   System.out.println(a2);
+   
+  char a3=n1.charAt(3);
+   System.out.println(a3);
+   
+   String a4=n1.concat(n2).concat(" "+a1);
+   System.out.println(a4);
+   
+   String a5="    hey    ";
+   String a6=a5.trim();
+   System.out.println(a6);
+   
+   String v="ishana";
+  System.out.println(v.endsWith("a")); 
+   
+  System.out.println(v.replace('a','i'));
+   
+   String c=v.replaceAll("ishana", "aya");
+   System.out.println(c);
+   
+   
+   
+   
+   
+   String f="AYAZ mh 123";
+   String r=f.replaceAll("[0-9]", "");
+   System.out.println(r);
+   
+   System.out.println(f.replaceAll(f,f.toLowerCase()));
+   
+   String k="ishana fathima";
+   System.out.println(k.replace("fathima", "ayaz"));
+   
+   boolean g=k.isEmpty();
+   System.out.println(g);
+   
+   boolean h=f.equals(k);
+   System.out.println(h);
+   
+   String e="radar";
+   String reverse="";
+   for(int i=e.length()-1;i>=0;i--)
+   {
+	char answer=e.charAt(i);
+	 reverse=reverse+answer;
+	     }
+   System.out.println(reverse);
+   
+  boolean q= e.equals(reverse);
+   if(q==true)
+   {
+	   System.out.println("its a palindrom");
+   }
+   
+   Date d=new Date();
+   long l=d.getTime();
+   System.out.println(l);
+   Date s=new Date(d.getTime());
+   
+   System.out.println(s);
+   
+   
+   
+   
+   
+   
+   
+   
+	
+	
+	}
+
+}
+

@@ -1,0 +1,49 @@
+package project2;
+import java.util.Scanner;
+public class Asnmntscanner {
+     static int  n1;
+     static int n2;
+     static void sub()
+ 	{ 
+    	 System.out.println("the sutraction of 2 numbers is");
+ 		int sub=n1-n2;
+ 		System.out.println(sub);
+ 	}
+     static void mul()
+  	{	
+    	 System.out.println("the multiplication of 2 numbers is");
+  		int mul=n1*n2;
+  		System.out.println(mul);
+  	}
+     static void dev()
+  	{	
+    	 System.out.println("the devision of 2 numbers is");
+  		int dev=n1/n2;
+  		System.out.println(dev);
+  	}
+     static void mod()
+ 	{
+    	 System.out.println("the modulos of 2 numbers is");
+ 		int mod=n1%n2;
+ 		System.out.println(mod);
+ 	}
+	static void add()
+	{
+		System.out.println("the addition of 2 numbers is");
+		int sum=n1+n2;
+		System.out.println(sum);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("arithmatic operations are");
+		Scanner s1=new Scanner(System.in);
+		 n1= s1.nextInt();
+ 		 n2=s1.nextInt();
+		add();
+		sub();
+		mul();
+		dev();
+		mod();
+	}
+
+}

@@ -1,0 +1,58 @@
+package project2;
+//5
+import java.util.Scanner;
+
+//5 methods using scanner class with local variables
+public class Asnmnt29 
+{
+	static void add()
+	{
+		 Scanner s1=new Scanner(System.in);	
+		 int a=s1.nextInt();
+		int b=s1.nextInt();
+		int sum=a+b;
+		System.out.println("the sum of 2 numbers is  "+sum); 
+	}
+	static void sub()
+	{
+		 Scanner s1=new Scanner(System.in);	
+		 int a=s1.nextInt();
+		int b=s1.nextInt();
+		int sub=a-b;
+		System.out.println("the subtraction of 2 numbers is  "+sub); 
+	}
+	static void mul()
+	{
+		 Scanner s1=new Scanner(System.in);	
+		 int a=s1.nextInt();
+		int b=s1.nextInt();
+		int mul=a*b;
+		System.out.println("the multiplication of 2 numbers is  "+mul); 
+	}
+	static void devision()
+	{
+		 Scanner s1=new Scanner(System.in);	
+		 int a=s1.nextInt();
+		int b=s1.nextInt();
+		int dev=a/b;
+		System.out.println("the devision of 2 numbers is  "+dev);
+	}
+	static void modules()
+	{
+		 Scanner s1=new Scanner(System.in);	
+		 int a=s1.nextInt();
+		int b=s1.nextInt();
+		int mod=a%b;
+		System.out.println("the mod of 2 numbers is  "+mod); 
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("the oprations are");
+  add();
+  sub();
+  mul();
+  devision();
+  modules();
+}
+
+}

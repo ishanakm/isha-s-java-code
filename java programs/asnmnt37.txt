@@ -1,0 +1,36 @@
+package project2;
+//WAP to call the parent class constructor using super calling statements
+
+class Insta
+{
+	Insta()
+	{
+		System.out.println("parent class constructor");
+	}
+	 Insta(int a)
+	 {
+		 System.out.println("parent class 2nd constructor");
+	 }
+}
+public class Supercalling extends Insta
+{
+
+	Supercalling()
+	{
+		
+		System.out.println("child class constructor 1");
+		
+	}
+	Supercalling( int a)
+	{
+		super(3);//super calling statement to call constructor from parent class
+		System.out.println("child class constructor 2");
+		
+	}
+	public static void main(String[] args) 
+	{
+		new Supercalling();
+		new Supercalling(23);
+		}
+
+}

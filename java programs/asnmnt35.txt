@@ -1,0 +1,40 @@
+package project2;
+
+class First
+{
+	static int a=23;
+	static int b=20;
+	void add()
+	{
+		int sum=a+b;
+		System.out.println(sum);
+	}
+	static void sub()
+	{
+		int sub=a-b;
+		System.out.println(sub);
+	}
+}
+public class Practice extends First
+{
+	void dev()
+	{
+		int dev=a/b;
+		System.out.println(dev);
+	}
+	static void mul()
+	{
+		int mul=a*b;
+		System.out.println(mul);
+	}
+	public static void main(String[] args) 
+	{
+		Practice p1=new Practice();
+		
+mul();
+sub();
+p1.add(); 
+p1.dev();
+	}
+
+}
