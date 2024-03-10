@@ -1,0 +1,40 @@
+package project1;
+
+public class Sib
+{
+	static int i ;
+  static
+  {
+	  System.out.println("sib1");
+  }
+  {
+	  System.out.println("iib1");
+  }
+  static
+  {
+	  System.out.println("sib2");
+  }
+ Sib()
+  {
+	  System.out.println("constructor");
+  }
+ Sib(int a)
+  {
+	  System.out.println("constructor 2");
+  }
+  {
+	  System.out.println("iib2");
+  }
+	public static void main(String[] args) 
+	{
+		new Sib();//creating object
+		for(i=1;i<2;i++)
+		{
+			System.out.println(i);
+		}
+         new Sib(7);
+		
+	}
+
+}
+

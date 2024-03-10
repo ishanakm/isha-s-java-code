@@ -1,0 +1,26 @@
+package project1;
+//create 2 objects for iib
+public class IIB 
+{
+  static
+  {
+	  System.out.println("sib");
+  }
+  {
+	  System.out.println("iib1");
+  }
+  {
+	  System.out.println("iib2");
+  }
+    IIB()
+  {
+	  System.out.println("constructor");
+  }
+
+	public static void main(String[] args) 
+	{
+		//IIB i1=new IIB();
+		new IIB();
+	}
+
+}

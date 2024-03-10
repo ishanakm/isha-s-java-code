@@ -1,0 +1,19 @@
+package project1;
+//create static method
+public class stat 
+{
+	public static void add()
+	{
+		System.out.println("hey this is me isha");
+		
+	}
+	
+public static void main(String[] args)
+{
+	add();
+	System.out.println("where are you");
+
+}
+	
+}
+
