@@ -1,0 +1,63 @@
+package project1;
+//method overloading
+public class Asnmnt17 {
+	static void work()//1st static method
+	{
+		int a=10;
+		int b=20;
+		System.out.println(a+b);
+	}
+	static void work(int r, int n)//2nd static method
+	{
+		r=34;
+		n=20;
+		System.out.println(r*n);
+		}
+	static void work(char c)//3rd static method
+	{
+		int b=20;
+		System.out.println(c);
+	}
+	static void work(char s, int n)//4th static method
+	{
+		s='f';
+		n=10;
+		System.out.println(n);
+		}
+	void work(long t)//1st non-static method
+	{
+		t=2;
+		System.out.println("t");
+	}
+	void work(char k, byte s)//2nd non-static method
+	{
+		k='f';
+		s=23;
+		System.out.println(s);
+	}
+	void work(long m, int h, int y)//3rd non-static method
+	{
+		m=2;
+		System.out.println(m);
+	}
+	void work(char k, char l)// method overloading
+	{
+		k='g';
+		l='1';
+		System.out.println(l);
+	}
+
+public static void main(String[] args)
+	{
+	Asnmnt17 a2=new Asnmnt17();
+	a2.work(2);
+	a2.work('e',4);
+	a2.work(23,9,8);
+	a2.work('y','e');
+	work();
+	work(3,56);
+	work( 'f');
+    work('r',4);
+	}
+
+}

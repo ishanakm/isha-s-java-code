@@ -1,0 +1,16 @@
+package project1;
+//add 2 numbers
+public class asnmnt5 {
+
+	public static void main(String[] args) 
+	{
+		int a=123;
+		byte b=-1;
+		int sum;
+		sum=a+b;
+		System.out.println(sum);
+		
+		
+	}
+
+}

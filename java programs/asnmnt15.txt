@@ -1,0 +1,31 @@
+package project1;
+//WAP for calling a non-static method inside main method
+public class Asnmnt15 {
+	public void add()
+	{
+		int a=1;
+		int b=11;
+		int c=12;
+		int d=13;
+		int sum;
+		sum=a+b+c+d;
+		System.out.println("the sumis "+sum);
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println("the calculation goes like");
+		Asnmnt15 A1=new Asnmnt15();//creating an object
+		A1.add();//calling non-static method
+		System.out.println("candies are");
+		A1.candy();
+	}
+	void candy()
+	{
+		String candy="fruit";
+		String cooki="chocolate";
+		String bar="chocho";
+		System.out.println(candy);
+	}
+
+}

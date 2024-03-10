@@ -1,0 +1,36 @@
+package project1;
+//call static method in main method
+public class asnmnt2
+{
+  private static void noun()
+  {
+	 System.out.println("   noune:-");
+	 System.out.println("isha, ayaz");
+  }
+  public static void verb()
+  {
+	  System.out.println("   verb:-");
+		 System.out.println("walk,dance, run");
+  }
+  public static void pronoun()
+  {
+	  System.out.println("   pronoun:-");
+		 System.out.println("he, she, it");
+  }
+  public static void interjection()
+  {
+	  System.out.println("   interjection:-");
+		 System.out.println("OMG!, hurray!, wow!");
+  }
+	public static void main(String[] args)
+	{
+		System.out.println("the parts of speech are:");
+		noun();
+		verb();
+		pronoun();
+		interjection();
+		
+
+	}
+
+}

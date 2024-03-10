@@ -1,0 +1,15 @@
+package project1;
+//WAP to show java is line by line execution
+public class asnmnt10 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("java is line by line execution");
+		int a=1;
+		System.out.println(a);
+		byte b=109;
+		System.out.println(b);
+		System.out.println("tht's all");
+	}
+
+}

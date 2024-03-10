@@ -1,0 +1,29 @@
+package project1;
+//WAp for AND operator
+public class asnmnt13 {
+
+	public static void main(String[] args)
+	{
+		int Class=8;
+		String sub="english";
+		String gender="male";
+		System.out.println("friday schedule");
+		if(Class==5&&sub=="english")
+		{
+			System.out.println("you have english exam on friday");
+		}
+		else if(Class>=8&&gender=="male"&&Class<=10)
+		{
+		   System.out.println("you have tennis match on friday");
+		   System.out.println("no classes on saturday");
+	}
+		else if(Class<=5)
+		{
+			System.out.println("you have no class on friday");
+		}
+		else
+		{
+			System.out.println("classes as usual");
+		}
+	}
+}

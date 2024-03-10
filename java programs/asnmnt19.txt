@@ -1,0 +1,62 @@
+package project1;
+// constructor overloading using 10 constructos
+public class Asnmnt19 {
+	Asnmnt19()//1
+	{
+		int a=3 ;
+		System.out.println("1.wow");
+		System.out.println(a);
+		}
+	Asnmnt19(int a)//2
+	{
+		System.out.println("2.hey");
+		}
+	Asnmnt19(char d)//3
+	{
+		d='d';
+		System.out.println(d);
+		}
+	Asnmnt19(int r, int y)//4
+	{
+		System.out.println("all the ways are closed");
+		}
+	Asnmnt19(char b, int c)//5
+	{
+		System.out.println("bbbbbb");
+		}
+	Asnmnt19(int a,int b,int c)//6
+	{
+		a=1;
+		b=10;
+		c=50;
+		System.out.println(a+b+c);
+	}
+  Asnmnt19(int h,int f,char t)//7
+	{
+		System.out.println("monkey");
+	}
+    Asnmnt19(int i,char f, char u)//8
+	{
+		System.out.println("fifa");
+	}
+     Asnmnt19(char e,char f)//9
+	  {
+     	System.out.println("character");
+	   }
+       Asnmnt19(long o,long h)//10
+       { 
+	   System.out.println("end of the program");
+         }
+	public static void main(String[] args) {
+		new Asnmnt19();
+		new Asnmnt19(9);
+		new Asnmnt19('g');
+		new Asnmnt19('f',4);
+		new Asnmnt19(1,2,3);
+		new Asnmnt19(3,4);
+		new Asnmnt19(3, 5667,'g');
+		new Asnmnt19(4,'f','n');
+		new Asnmnt19('f','g');
+		new Asnmnt19(123,456789);
+		
+	}}

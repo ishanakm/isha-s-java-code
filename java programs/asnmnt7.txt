@@ -1,0 +1,22 @@
+package project1;
+
+public class asnmnt7 {
+//7.WAP for if block
+	public static void main(String[] args) 
+	{
+		System.out.println("the problem is if block");
+     int a=127868;
+     long b=63888886;
+     int c=123;
+     String name="ishana";
+     if(a!=b)
+     {
+    	System.out.println(name); 
+     }
+     if(a>1)
+     {
+    	 System.out.println(c);
+     }
+	}
+
+}

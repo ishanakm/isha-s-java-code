@@ -1,0 +1,28 @@
+package project1;
+//WAP for OR operator
+public class Asnmnt12 {
+   static void New()
+   {
+	   int a=18;
+	   char b='c';
+	   String colour="blue";
+	   if(a<=12||b=='d')
+	   {
+		   System.out.println("helloo");
+	   }
+	   else if(a>15||colour=="green")
+	   {
+		   System.out.println("hurray!");
+	   }
+	   else
+	   {
+		   System.out.println("nothing");
+	   }
+   }
+	public static void main(String[] args)
+	{
+		
+     New();
+	}
+
+}

@@ -1,0 +1,11 @@
+package project1;
+// print your name
+public class asnmnt1 {
+
+	public static void main(String[] args)
+	{
+		System.out.println("ishana fathima km ");
+
+	}
+
+}

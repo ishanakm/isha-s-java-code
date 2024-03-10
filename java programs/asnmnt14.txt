@@ -1,0 +1,23 @@
+package project1;
+//WAP for NOT with AND and NOT with OR operator
+public class Asnmnt14 {
+
+	public static void main(String[] args)
+	{
+	int a=2;
+	int Class=6;
+	if(!(a!=1&&Class>=5)) //NOT with AND operator
+	{
+		System.out.println("football");
+	}
+	else if(!(a!=2||Class!=6))//NOT with OR operator
+	{
+		System.out.println("running");
+	}
+	else
+	{
+		System.out.println("cricket");
+	}
+	}
+
+}

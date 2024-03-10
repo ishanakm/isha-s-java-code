@@ -1,0 +1,16 @@
+package project1;
+//update variable's value
+public class asnmnt4 {
+
+	public static void main(String[] args) {
+		int a=12;
+		System.out.println(a);
+		a=324;  //updating variable value
+		System.out.println(a);
+		int c=29434;
+		c=4566;
+		System.out.println(c);
+				
+	}
+
+}

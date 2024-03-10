@@ -1,0 +1,38 @@
+package project1;
+//WAP using nested if_else
+public class asnmnt11 {
+
+	public static void main(String[] args)
+	{
+		
+ String gender="male";
+ int age=52;
+ System.out.println("the given information are:");
+ if(gender=="male")
+ {
+	if(age>18)
+	{
+		System.out.println("person is eligible for vote");
+	}
+	else
+	{
+		System.out.println("person is not eligible for vote");
+	}
+ }
+ else if(gender=="female")
+ {
+	 if(age>18)
+	 {
+		 System.out.println("person is eligible for vote");
+	 }
+	 else
+	 {
+		 System.out.println("person is not eligible for vote");
+	 }
+	}
+ else
+ {
+	 System.out.println("choose the right one");
+ }
+}
+}

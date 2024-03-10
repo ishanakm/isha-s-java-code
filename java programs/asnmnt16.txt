@@ -1,0 +1,37 @@
+package project1;
+// creating static non-static constructor methods and calling inside main
+public class Asnmnt16 {
+     public static void date()
+      {
+    	  int date=11/2/12;
+    	  int total=31;
+    	  System.out.println("showing the date");
+      }
+      public static void day() {
+    	  String day="sunday";
+    	  System.out.println(day);
+      }
+      void colour() {
+    	  String clr="pink";
+    	  System.out.println(clr);
+      }
+      void work(){
+    	  int a=1000;
+    	  int r=1234;
+    	  int mul=a*r;
+    	  System.out.println(mul);
+      }
+      Asnmnt16(){
+    	  System.out.println("hey everyone");
+    	  System.out.println("hello there");
+      }
+      public static void main(String[] args){
+		Asnmnt16 A1=new Asnmnt16();// creating object and calling constructor
+		//new Asnmnt16();//calling constructor
+		A1.work(); //calling non-static method
+		A1.colour();
+		day();
+		date();
+	}
+
+}
